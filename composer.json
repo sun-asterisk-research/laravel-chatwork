@@ -1,0 +1,26 @@
+{
+  "name": "sun-asterisk/laravel-chatwork",
+  "description": "Chatwork Laravel client library",
+  "type": "library",
+  "require": {
+    "sun-asterisk/chatwork-php": "^0.1.1",
+    "illuminate/support": "^5.8"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.3"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SunAsterisk\\Chatwork\\Laravel\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
