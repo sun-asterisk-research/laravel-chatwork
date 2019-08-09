@@ -2,12 +2,12 @@
 
 namespace SunAsterisk\Chatwork\Laravel;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 use SunAsterisk\Chatwork\Auth\APIToken;
 use SunAsterisk\Chatwork\Chatwork;
 use Illuminate\Contracts\Foundation\Application;
 
-class ChatworkServiceProvider extends ServiceProvider
+class ServiceProvider extends IlluminateServiceProvider
 {
     public function register()
     {

@@ -1,9 +1,10 @@
 <?php
+
 namespace SunAsterisk\Chatwork\Laravel\Facades;
 
-use Illuminate\Support\Facades\Facade;
+use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
-class Chatwork extends Facade
+class Facade extends IlluminateFacade
 {
     protected static function getFacadeAccessor()
     {

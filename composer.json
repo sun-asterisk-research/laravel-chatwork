@@ -1,6 +1,6 @@
 {
   "name": "sun-asterisk/laravel-chatwork",
-  "description": "Chatwork Laravel client library",
+  "description": "Chatwork SDK for Laravel",
   "type": "library",
   "require": {
     "sun-asterisk/chatwork-php": "^0.1.1",
@@ -22,5 +22,15 @@
   },
   "config": {
     "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SunAsterisk\\Chatwork\\Laravel\\ServiceProvider"
+      ],
+      "aliases": {
+        "Chatwork": "SunAsterisk\\Chatwork\\Laravel\\Facade"
+      }
+    }
   }
 }
