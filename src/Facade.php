@@ -1,6 +1,6 @@
 <?php
 
-namespace SunAsterisk\Chatwork\Laravel\Facades;
+namespace SunAsterisk\Chatwork\Laravel;
 
 use Illuminate\Support\Facades\Facade as IlluminateFacade;
 
