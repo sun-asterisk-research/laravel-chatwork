@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/sun-asterisk/laravel-chatwork/v/stable)](https://packagist.org/packages/sun-asterisk/laravel-chatwork)
 
-Chatwork SDK for Laravel 5.
+Chatwork SDK for Laravel 5, 6.
 
 ## Installation
 
